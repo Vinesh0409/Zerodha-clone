@@ -82,6 +82,10 @@
     cursor: pointer;
 }
 
+.centre-content button:hover{
+    background-color: black;
+}
+
 .part1{
     width: 75vw;
     margin: auto;
@@ -117,4 +121,49 @@
     color: #387ed1;
     font-weight: 600;
     cursor: pointer;
+}
+
+.redirect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.links{
+    color: #387ed1;
+    display: flex;
+    gap: 10px;
+    font-size: 1.05em;
+    font-weight: 500;
+}
+.part1 >img{
+    width: 700px;
+    display: block;
+    margin: 50px auto 0 auto;
+}
+
+.part2{
+    width: 75vw;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.part2 .content-right{
+    display: flex;
+    justify-content: center;
+}
+
+.img-box{
+    color: #666666;
+    display: flex;
+    font-size: 0.7em;
+    font-weight: 400;
+}
+.img-box div{
+       align-self: center;
+    position: relative;
+    right: 22px;
+    top: 10px;
+    line-height: 1.5em;
 }
